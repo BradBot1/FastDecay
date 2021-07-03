@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bb1.fabric.fastdecay.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  	"LeavesMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

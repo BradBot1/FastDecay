@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fastdecay",
+  "version": "${version}",
+
+  "name": "FastDecay",
+  "description": "A simple mod to make leaves decay faster",
+  "authors": [
+    "BradBot_1"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "Apache License v2",
+  "icon": "assets/fastdecay/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bb1.fabric.fastdecay.Loader"
+    ]
+  },
+  "mixins": [
+    "fastdecay.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    
+  }
+}
