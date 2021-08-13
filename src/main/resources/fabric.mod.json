@@ -9,8 +9,9 @@
     "BradBot_1"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/fastdecay",
+    "sources": "https://github.com/BradBot1/FastDecay",
+    "issues": "https://github.com/BradBot1/FastDecay/issues"
   },
 
   "license": "Apache License v2",
@@ -32,7 +33,4 @@
     "minecraft": "1.17.x",
     "java": ">=16"
   },
-  "suggests": {
-    
-  }
 }
